@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ProjectChatApp.ClientSide.Chat">
+    <Position X="8.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgCAAQAAgAACgAAACAEAEABABAAAoIAAAAAA=</HashCode>
+      <FileName>ClientSide\Chat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjectChatApp.ClientSide.Client">
+    <Position X="0.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RQAAAAAAAEEAgAAAIAAAAJAACAgBAAKIAQAQ4AAAAAA=</HashCode>
+      <FileName>ClientSide\Client.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjectChatApp.ClientSide.CreateTopic">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAAACAAAACAAAIAAAAEEAAAAAAAAA=</HashCode>
+      <FileName>ClientSide\CreateTopic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjectChatApp.ClientSide.JoinTopic">
+    <Position X="7" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgCAAAAAAEACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClientSide\JoinTopic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjectChatApp.ClientSide.PrivateDisc">
+    <Position X="7" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAACAAAAAAAACAAAACAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>ClientSide\PrivateDisc.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjectChatApp.ClientSide.Welcome">
+    <Position X="3.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABCCAAAAAAABCAAAQCAAQIAAEAAEAAAAAEAAA=</HashCode>
+      <FileName>ClientSide\Welcome.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjectChatApp.Menu">
+    <Position X="5.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAADQAAAQAAACAEAACCAAIAAAAAECAAAAAAAA=</HashCode>
+      <FileName>ClientSide\Menu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjectChatApp.Program" Collapsed="true">
+    <Position X="2.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAACAgAAABAAAAAA=</HashCode>
+      <FileName>Launcher\Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjectChatApp.Launcher.Rgb" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIBAAAAAAAAAAACAACAEAAQA=</HashCode>
+      <FileName>Launcher\Rgb.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjectChatApp.Properties.Resources" Collapsed="true">
+    <Position X="2.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjectChatApp.Properties.Settings" Collapsed="true">
+    <Position X="0.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

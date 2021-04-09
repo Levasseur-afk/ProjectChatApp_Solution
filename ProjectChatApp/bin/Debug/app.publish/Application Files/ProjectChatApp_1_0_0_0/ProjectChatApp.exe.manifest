@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ProjectChatApp.exe" version="1.0.0.0" publicKeyToken="8bca926b978cd0f2" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ProjectChatApp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ProjectChatApp.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Options de manifeste UAC
+          Pour changer le niveau du contrôle de compte d'utilisateur Windows, remplacez le
+          nœud requestedExecutionLevel par l'une des propositions suivantes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Pour utiliser la virtualisation des fichiers et du Registre afin d'assurer
+         une compatibilité ascendante, supprimez le nœud requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Communication.dll" size="4096">
+      <assemblyIdentity name="Communication" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>bDL4jQVxV6qcpwISufIBPBEetidmAk1M7Qp6MEnADpE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ProjectChatApp.exe" size="23064">
+      <assemblyIdentity name="ProjectChatApp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>pun3FBWD1MsYE3jxP7zTWS4x2jpsi2BnuFh1UKfK1G0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ProjectChatApp.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LAPTOP-9S3AJDCK\ImMortal Virus" issuerKeyHash="ca17eccb301c47ab9257b489ce81c6ee3e240fc0" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>crwPJPOI2jUR9AwqPtZut67hGMl5NlEvAwua38B2twE=</DigestValue></Reference></SignedInfo><SignatureValue>N8+PV8UznHjsS5PSgFK3v8gc7dmUrIFrWiITABOWpnBvZr9nGHSpPuaDy+CoG/z0j1L79wbBFgimWdgddiA1xaG6c+XWOdX1zPZqVb1JEU1TF0Lo4YgDG/rTZftmqTqyfuu1mKrsP3ixOYlFVB7UBExLCNzVtM7RHSWVBwFM8gQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>xRm9PdG6kZ/qU3z1hzW3NpWXgcFM9uvnOu9mDX/7UgEAUrOoQrhd4YGNRHE49LDtIKj8loG+kQmGY2USOvDQJLSLyuberiZLyj/fjxiqvVMwj0vmX8xzDd81hh1Yxizg+dPux8LvOkpCpFTc8KUr/WOgCACEMMn+ukcDpG7lIkk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="01b776c0df9a0b032f513679c918e1aeb76ed63e2a0cf41135da88f3240fbc72" Description="" Url=""><as:assemblyIdentity name="ProjectChatApp.exe" version="1.0.0.0" publicKeyToken="8bca926b978cd0f2" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAPTOP-9S3AJDCK\ImMortal Virus</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>aWYbpgr81UwJEtar48j/ivlCrtOesW6LiGFn6ASwU+0=</DigestValue></Reference></SignedInfo><SignatureValue>owp465lWpY8MrnjlR4JrLfGYUqVVWXcAAFmDEIGrtQ+BM90aJZ5luJ4JLgX5U+nFfYG+CFxi5gn4TMg0P0icptXMUb06xh+j4bKNWktd+J5jiXNwfKL1/zvQ0+L4qs0B58rHlsuUZ+zMhre8AxBSEdPIAZUpRH5UuLVX+l9XYHE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>xRm9PdG6kZ/qU3z1hzW3NpWXgcFM9uvnOu9mDX/7UgEAUrOoQrhd4YGNRHE49LDtIKj8loG+kQmGY2USOvDQJLSLyuberiZLyj/fjxiqvVMwj0vmX8xzDd81hh1Yxizg+dPux8LvOkpCpFTc8KUr/WOgCACEMMn+ukcDpG7lIkk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICETCCAXqgAwIBAgIQfvf6KnmH2ItLJP9W+fw5pDANBgkqhkiG9w0BAQsFADBHMUUwQwYDVQQDHjwATABBAFAAVABPAFAALQA5AFMAMwBBAEoARABDAEsAXABJAG0ATQBvAHIAdABhAGwAIABWAGkAcgB1AHMwHhcNMjEwMTEwMTQzNDM0WhcNMjIwMTEwMjAzNDM0WjBHMUUwQwYDVQQDHjwATABBAFAAVABPAFAALQA5AFMAMwBBAEoARABDAEsAXABJAG0ATQBvAHIAdABhAGwAIABWAGkAcgB1AHMwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMUZvT3RupGf6lN89Yc1tzaVl4HBTPbr5zrvZg1/+1IBAFKzqEK4XeGBjURxOPSw7SCo/JaBvpEJhmNlEjrw0CS0i8rm3q4mS8o/348Yqr1TMI9L5l/Mcw3fNYYdWMYs4PnT7sfC7zpKQqRU3PClK/1joAgAhDDJ/rpHA6Ru5SJJAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAhQMX0ktzfjMxcDoc30ZbsmhOEZ2DMyCl/v+r3VZyuE18znh6Fut1QWD3QtXCVhbapqOTzZ694qeqor9RSg+b9QA/gcAkBOsxQeJu1PBubY5mpCripDjr51yjwqvlVakBxor0Y514yN9eoSL/obBf6vTHbWcIUeLlg3z+yMMiT6o=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

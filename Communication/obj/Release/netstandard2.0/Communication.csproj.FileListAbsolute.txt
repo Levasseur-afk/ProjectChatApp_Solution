@@ -1,0 +1,9 @@
+C:\Users\ImMortal Virus\source\repos\ProjectChatApp_Solution\Communication\bin\Release\netstandard2.0\Communication.deps.json
+C:\Users\ImMortal Virus\source\repos\ProjectChatApp_Solution\Communication\bin\Release\netstandard2.0\Communication.dll
+C:\Users\ImMortal Virus\source\repos\ProjectChatApp_Solution\Communication\bin\Release\netstandard2.0\Communication.pdb
+C:\Users\ImMortal Virus\source\repos\ProjectChatApp_Solution\Communication\obj\Release\netstandard2.0\Communication.csprojAssemblyReference.cache
+C:\Users\ImMortal Virus\source\repos\ProjectChatApp_Solution\Communication\obj\Release\netstandard2.0\Communication.AssemblyInfoInputs.cache
+C:\Users\ImMortal Virus\source\repos\ProjectChatApp_Solution\Communication\obj\Release\netstandard2.0\Communication.AssemblyInfo.cs
+C:\Users\ImMortal Virus\source\repos\ProjectChatApp_Solution\Communication\obj\Release\netstandard2.0\Communication.csproj.CoreCompileInputs.cache
+C:\Users\ImMortal Virus\source\repos\ProjectChatApp_Solution\Communication\obj\Release\netstandard2.0\Communication.dll
+C:\Users\ImMortal Virus\source\repos\ProjectChatApp_Solution\Communication\obj\Release\netstandard2.0\Communication.pdb

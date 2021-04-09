@@ -1,0 +1,16 @@
+C:\Users\ImMortal Virus\source\repos\ProjectChatApp_Solution\ServerSide\bin\Debug\netcoreapp3.1\ServerSide.exe
+C:\Users\ImMortal Virus\source\repos\ProjectChatApp_Solution\ServerSide\bin\Debug\netcoreapp3.1\ServerSide.deps.json
+C:\Users\ImMortal Virus\source\repos\ProjectChatApp_Solution\ServerSide\bin\Debug\netcoreapp3.1\ServerSide.runtimeconfig.json
+C:\Users\ImMortal Virus\source\repos\ProjectChatApp_Solution\ServerSide\bin\Debug\netcoreapp3.1\ServerSide.runtimeconfig.dev.json
+C:\Users\ImMortal Virus\source\repos\ProjectChatApp_Solution\ServerSide\bin\Debug\netcoreapp3.1\ServerSide.dll
+C:\Users\ImMortal Virus\source\repos\ProjectChatApp_Solution\ServerSide\bin\Debug\netcoreapp3.1\ServerSide.pdb
+C:\Users\ImMortal Virus\source\repos\ProjectChatApp_Solution\ServerSide\bin\Debug\netcoreapp3.1\Communication.dll
+C:\Users\ImMortal Virus\source\repos\ProjectChatApp_Solution\ServerSide\bin\Debug\netcoreapp3.1\Communication.pdb
+C:\Users\ImMortal Virus\source\repos\ProjectChatApp_Solution\ServerSide\obj\Debug\netcoreapp3.1\ServerSide.csprojAssemblyReference.cache
+C:\Users\ImMortal Virus\source\repos\ProjectChatApp_Solution\ServerSide\obj\Debug\netcoreapp3.1\ServerSide.AssemblyInfoInputs.cache
+C:\Users\ImMortal Virus\source\repos\ProjectChatApp_Solution\ServerSide\obj\Debug\netcoreapp3.1\ServerSide.AssemblyInfo.cs
+C:\Users\ImMortal Virus\source\repos\ProjectChatApp_Solution\ServerSide\obj\Debug\netcoreapp3.1\ServerSide.csproj.CoreCompileInputs.cache
+C:\Users\ImMortal Virus\source\repos\ProjectChatApp_Solution\ServerSide\obj\Debug\netcoreapp3.1\ServerSide.csproj.CopyComplete
+C:\Users\ImMortal Virus\source\repos\ProjectChatApp_Solution\ServerSide\obj\Debug\netcoreapp3.1\ServerSide.dll
+C:\Users\ImMortal Virus\source\repos\ProjectChatApp_Solution\ServerSide\obj\Debug\netcoreapp3.1\ServerSide.pdb
+C:\Users\ImMortal Virus\source\repos\ProjectChatApp_Solution\ServerSide\obj\Debug\netcoreapp3.1\ServerSide.genruntimeconfig.cache

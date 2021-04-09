@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\ImMortal Virus\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\ImMortal Virus\\.nuget\\packages"
+    ]
+  }
+}
